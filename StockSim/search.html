@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet'>
+    <title>Search a Stock</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    
+
+    <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+		<li><a href="about.html"><img align="center" src="icon/home.png" class="icon"></a></li>
+        <li><a href="#"></a><img align="center" src="icon/search.png" class="icon"></li>
+        <li><a href="browse.html"><img align="center" src="icon/browse.png" class="icon"></a></li>
+        <li><a href=""><img align="center" src="icon/people.png" class="icon"></a></li>
+      </ul>
+    </div>
+
+    <!-- Main body -->
+    <div class="jumbotron">
+
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Navigation
+      </div>
+    
+      <div class="container">
+          <form id="input">
+          Ticker or Company Name: <input type="text" name="stock" id="stock2" />
+          <input type="submit" value="Search" />
+          </form>
+          
+          <div id="result">
+          </div>
+          
+          
+      </div>
+    </div>
+  </body>
+</html>
